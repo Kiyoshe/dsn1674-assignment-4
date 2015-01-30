@@ -1,12 +1,19 @@
-html { background-color: #2ab5e9;
+html { background-color: #838dde;
 }
 
 h2 {font-weight: normal;/* normal, bold */
-  font-size: 3rem;
+  font-size: 2.5rem;
   font-style: italic; /*normal, italic */
   text-decoration: underline;/* underline, line-through*/
   font-family: 'Fredoka One', cursive;
   line-height: 1.5 ; }
+em{
+  color: #304082;
+}
+li{
+  color: white;
+
+}
 
 ul {
   list-style-type: none;
@@ -15,10 +22,35 @@ ul {
 
 h1{font-size: 4rem;
   text-align: center;
+  background-color: white;
+  padding: 1em 2em 0.5em 3em;
+  margin: 0;
+  border: 5px line #000;
+  border-radius: 10px;
+  display: block;
 }
-
+a{
+  background-color: #d0b9f6;
+  display: block;
+}
+nav{
+  background-color: #304082;
+  text-align: center;
+  }
+nav li {
+    display: inline-block;
+    }
+nav a {
+      display: inline-block;
+      padding: 0.5em o.75em
+      background-color: blue;
+      text-decoration: none;
+      border-radius:4px;
+      width: 5em;
+    }
 
 h1,h2{ font-family: 'Fredoka One', cursive;
+color: #06134f;
 
 }
 li{
@@ -33,15 +65,15 @@ span {
 
 blockquote {
   font-style: italic;
-  font-size: 2rem;
+  font-size: 1.3rem;
   font-weight: normal;
   line-height: 1;
   color: white;
 
 }
 .neil{
-  color: #12fde4;
+  color: #304082;
   text-align: center;
-  font-size: 2rem;
+  font-size: 1.7rem;
   font-style: italic;
 }
