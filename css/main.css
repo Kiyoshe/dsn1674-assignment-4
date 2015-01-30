@@ -4,7 +4,7 @@ html { background-color: #838dde;
 h2 {font-weight: normal;/* normal, bold */
   font-size: 2.5rem;
   font-style: italic; /*normal, italic */
-  text-decoration: underline;/* underline, line-through*/
+  text-decoration: none;/* underline, line-through*/
   font-family: 'Fredoka One', cursive;
   line-height: 1.5 ; }
 em{
@@ -12,18 +12,19 @@ em{
 }
 li{
   color: white;
-
+  padding:
 }
 
 ul {
   list-style-type: none;
   padding: 0;
+  text-align: center;
 }
 
 h1{font-size: 4rem;
   text-align: center;
   background-color: white;
-  padding: 1em 2em 0.5em 3em;
+  padding: 1em 0.5em 0.5em 1em;
   margin: 0;
   border: 5px line #000;
   border-radius: 10px;
@@ -39,6 +40,7 @@ nav{
   }
 nav li {
     display: inline-block;
+    padding: 3px;
     }
 nav a {
       display: inline-block;
@@ -77,3 +79,8 @@ blockquote {
   font-size: 1.7rem;
   font-style: italic;
 }
+
+img{
+  padding: 10px;
+  border: 5px solid white;
+  background-color: #304082;
