@@ -1,0 +1,47 @@
+html { background-color: #2ab5e9;
+}
+
+h2 {font-weight: normal;/* normal, bold */
+  font-size: 3rem;
+  font-style: italic; /*normal, italic */
+  text-decoration: underline;/* underline, line-through*/
+  font-family: 'Fredoka One', cursive;
+  line-height: 1.5 ; }
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+h1{font-size: 4rem;
+  text-align: center;
+}
+
+
+h1,h2{ font-family: 'Fredoka One', cursive;
+
+}
+li{
+
+}
+.cute {color: red}
+
+span {
+  color: white;
+  font-size: 2.5rem;
+}
+
+blockquote {
+  font-style: italic;
+  font-size: 2rem;
+  font-weight: normal;
+  line-height: 1;
+  color: white;
+
+}
+.neil{
+  color: #12fde4;
+  text-align: center;
+  font-size: 2rem;
+  font-style: italic;
+}
