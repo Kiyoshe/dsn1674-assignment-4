@@ -6,20 +6,22 @@ h2 {font-weight: normal;/* normal, bold */
   font-style: normal; /*normal, italic */
   text-decoration: none;/* underline, line-through*/
   font-family: 'Fredoka One', cursive;
-  line-height: 1.5 ; }
+  line-height: 1 ; }
 em{
   color: #304082;
 }
 
 li{
   color: white;
-  padding:
+  padding:0.1em;
+
 }
 
 ul {
   list-style-type: circle;
-  padding: 1em 1em 1em 1em;
+  padding: 1em 1em 1em 1.5em;
   text-align: left;
+  background-color: #304082;
 
 
 }
@@ -38,6 +40,12 @@ h1{font-size: 4rem;
 a{
   background-color: #d0b9f6;
   display: block;
+}
+
+a:hover{
+  color: white;
+}
+
 
 }
 nav{
@@ -50,14 +58,14 @@ nav li {
     }
 nav a {
       display: inline-block;
-      padding: 0.5em o.75em
-      background-color: blue;
+      padding: 0.5em o.75em;
+      background-color: #d0b9f6;
       text-decoration: none;
       border-radius:4px;
 
     }
 
-h1,h2{ font-family: 'Fredoka One', cursive;
+h1,h2,dt,nav,ul{ font-family: 'Fredoka One', cursive;
 color: #06134f;
 
 }
@@ -91,12 +99,13 @@ figure{
 }
 footer{
   border-radius: 10px
-}
+  }
 img{
   width: 100%;
 }
 dd{
-  margin: 0;
+  margin: 2;
+  color: #304082;
 }
 figcaption{
   font-style: italic;
