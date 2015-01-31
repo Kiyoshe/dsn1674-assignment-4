@@ -3,13 +3,14 @@ html { background-color: #838dde;
 
 h2 {font-weight: normal;/* normal, bold */
   font-size: 2.5rem;
-  font-style: italic; /*normal, italic */
+  font-style: normal; /*normal, italic */
   text-decoration: none;/* underline, line-through*/
   font-family: 'Fredoka One', cursive;
   line-height: 1.5 ; }
 em{
   color: #304082;
 }
+
 li{
   color: white;
   padding:
@@ -32,11 +33,12 @@ h1{font-size: 4rem;
   border-radius: 10px;
   display: block;
   font-weight: bold;
-
 }
+
 a{
   background-color: #d0b9f6;
   display: block;
+
 }
 nav{
   background-color: #304082;
@@ -95,4 +97,12 @@ img{
 }
 dd{
   margin: 0;
+}
+figcaption{
+  font-style: italic;
+}
+dt {
+  font-weight: bold;
+  padding: 3px;
+
 }
