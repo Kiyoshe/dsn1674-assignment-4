@@ -111,6 +111,7 @@ dd{
 }
 figcaption{
   font-style: italic;
+  padding: 5px;
 }
 dt {
   font-weight: bold;
